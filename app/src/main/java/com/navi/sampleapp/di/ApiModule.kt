@@ -38,7 +38,7 @@ object ApiModule {
     }
 
     @Provides
-    fun provideCountriesService(pullRequestApi: PullRequestApi): PullRequestService {
+    fun providePullRequestService(pullRequestApi: PullRequestApi): PullRequestService {
         return PullRequestService(pullRequestApi)
     }
 }

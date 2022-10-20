@@ -11,7 +11,7 @@
             android:id="@+id/error_msg"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/standard_padding"
             android:gravity="center"
             app:layout_constraintBottom_toTopOf="@+id/progress_bar"
             app:layout_constraintEnd_toEndOf="parent"
